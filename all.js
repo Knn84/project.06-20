@@ -4,7 +4,7 @@ $(".go-top").click(e => {
 });
 $(".go-work").click(e => {
     e.preventDefault();
-    $("html").animate({scrollTop:800},700);
+    $("html").animate({scrollTop:950},700);
 });
 //測試
 Fancybox.bind('[data-fancybox="gallery"]', {

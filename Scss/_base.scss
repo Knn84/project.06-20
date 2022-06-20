@@ -1,5 +1,6 @@
 //全站設定
 body{
+    font-family: 'Arapey', serif;
     line-height: 1.5;
 }
 img{
@@ -8,8 +9,11 @@ img{
 }
 a {
     text-decoration: none;
-    color: #fff;
+    color: black;
 }
 sub{
     vertical-align: sub;
+}
+.mt-64{
+    margin-top: 64px;
 }

@@ -1,0 +1,18 @@
+//所有頁面都會用的到
+.header{
+    
+}
+.header a{
+
+}
+.footer{
+
+}
+.footer a{
+
+}
+//相同的樣式 可以抽象一個 l- 來共同使用
+.l-list{
+    width: 500px;
+    font-size: 20;
+}

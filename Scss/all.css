@@ -316,4 +316,47 @@ sub {
   /* Prevent opacity change when dragging up/down */
   --fancybox-opacity: 1;
 }
+
+.swiper {
+  margin-bottom: 64px;
+  max-width: 400px;
+  height: 450px;
+}
+
+.swiper img {
+  text-align: center;
+  width: 400px;
+  height: 400px;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #d7e1e2;
+  height: 300px;
+}
+
+.footer .footer-info h2 {
+  text-align: center;
+  font-family: 'Noto Sans TC', sans-serif;
+  color: rgba(0, 0, 0, 0.742);
+  font-weight: bolder;
+  font-size: 22px;
+  margin-bottom: 16px;
+}
+
+.footer .footer-info a {
+  font-size: 20px;
+}
 /*# sourceMappingURL=all.css.map */

@@ -17,3 +17,26 @@ Fancybox.bind('[data-fancybox="gallery"]', {
         wheel: "slide",
     },
 });
+const swiper = new Swiper('.swiper', {
+  // Optional parameters 上下或水平
+    direction: 'horizontal',
+    speed: 1500,
+    loop: true,
+    autoplay: {
+    delay: 3000,
+    centeredSlides:true,
+    },
+    // If we need pagination
+    pagination: {
+        el: '.swiper-pagination',
+        clickable: true
+    },
+
+    // Navigation arrows
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+    },
+
+
+});

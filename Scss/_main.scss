@@ -115,4 +115,37 @@
             }
         }
     }
+
+}
+.swiper {
+    margin-bottom: 64px;
+    max-width: 400px;
+    height: 450px;
+    img{
+        text-align: center;
+        width: 400px;
+        height: 400px;
+    }
+}
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(215, 225, 226);
+    height: 300px;
+    .footer-info{
+        
+        h2{
+            text-align: center;
+            font-family: 'Noto Sans TC', sans-serif;
+            color: rgba(0, 0, 0, 0.742);
+            font-weight: bolder;
+            font-size: 22px;
+            margin-bottom: 16px;
+            };
+        a{
+            font-size: 20px;
+            }
+    }
 }

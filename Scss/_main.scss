@@ -6,7 +6,7 @@
 }
 .header{
     display: flex;
-    align-items: center;
+    align-items:center;
     justify-content:space-evenly;
     background-color: #fff;
     height:80px;
@@ -17,6 +17,9 @@
     z-index: 10;
     @media (max-width: 576px){
         justify-content: center;
+    }
+    @media (max-width: 375px){
+        display: none;
     }
     a {
         &:hover {
@@ -42,15 +45,24 @@
     align-items: center;
     background-image:url("https://raw.githubusercontent.com/Knn84/project.06-20/main/img/LINE_ALBUM_%E4%B8%BB%E5%9C%96_220620.jpg");
     background-size: cover;
+    @media (max-width: 375px){
+        margin-top: 0;
+    }
     h1 {
         text-align: center;
         letter-spacing: 3px;
         z-index: 2;
         font-size: 30px;
+        @media (max-width: 375px){
+            font-size: 16px;
+        }
     }
     .big{
         font-size: 50px;
         font-family: 'Bodoni Moda', serif;
+        @media (max-width: 375px){
+            font-size: 32px;
+        }
     }
 }
 .content{

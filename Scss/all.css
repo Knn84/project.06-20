@@ -164,7 +164,7 @@ sub {
 }
 
 .container {
-  max-width: 1120px;
+  max-width: 1920px;
   margin: 0 auto;
   padding-left: 16px;
   padding-right: 16px;
@@ -187,6 +187,11 @@ sub {
   left: 0px;
   right: 0px;
   z-index: 10;
+}
+
+.header a:hover {
+  font-size: 20px;
+  color: brown;
 }
 
 .header .header-card {
@@ -221,6 +226,7 @@ sub {
 
 .home h1 {
   text-align: center;
+  padding-bottom: 500px;
   letter-spacing: 3px;
   z-index: 2;
   font-size: 30px;
@@ -272,6 +278,7 @@ sub {
 }
 
 .works {
+  margin-bottom: 64px;
   text-align: center;
   font-family: 'Noto Sans TC', sans-serif;
 }
@@ -280,7 +287,7 @@ sub {
   color: rgba(0, 0, 0, 0.742);
   font-weight: bolder;
   font-size: 22px;
-  margin: 64px;
+  margin-top: 64px;
   margin-bottom: 64px;
 }
 
@@ -290,6 +297,13 @@ sub {
 
 .works .test .rounded {
   max-width: 30%;
+}
+
+@media (max-width: 768px) {
+  .works .test .rounded {
+    max-width: 100%;
+    height: auto;
+  }
 }
 
 .works .test a[data-fancybox] img {
@@ -347,6 +361,16 @@ sub {
   height: 300px;
 }
 
+.footer .footer-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
 .footer .footer-info h2 {
   text-align: center;
   font-family: 'Noto Sans TC', sans-serif;
@@ -358,5 +382,12 @@ sub {
 
 .footer .footer-info a {
   font-size: 20px;
+}
+
+.footer .footer-info a img {
+  margin-top: 36px;
+  margin-right: 16px;
+  width: 40px;
+  height: 40px;
 }
 /*# sourceMappingURL=all.css.map */

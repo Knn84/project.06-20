@@ -2,9 +2,17 @@ $(".go-top").click(e => {
     e.preventDefault();
     $("html").animate({scrollTop:0},700);
 });
-$(".go-work").click(e => {
+$(".go-project").click(e => {
     e.preventDefault();
     $("html").animate({scrollTop:950},700);
+});
+$(".go-works").click(e => {
+    e.preventDefault();
+    $("html").animate({scrollTop:1700},700);
+});
+$(".go-contact").click(e => {
+    e.preventDefault();
+    $("html").animate({scrollTop:4000},900);
 });
 //測試
 Fancybox.bind('[data-fancybox="gallery"]', {

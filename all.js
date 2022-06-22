@@ -8,7 +8,7 @@ $(".go-project").click(e => {
 });
 $(".go-works").click(e => {
     e.preventDefault();
-    $("html").animate({scrollTop:1900},700);
+    $("html").animate({scrollTop:1750},700);
 });
 $(".go-contact").click(e => {
     e.preventDefault();
